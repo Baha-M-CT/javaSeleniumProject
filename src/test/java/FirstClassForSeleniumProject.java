@@ -23,8 +23,13 @@ public class FirstClassForSeleniumProject {
         /**
          * Test section
          */
+
+        /*
+        need add to new method
+         */
         printStr("Test 1");
         System.out.println(equals("Test 1", printText("Test 1")));
         System.out.println(equals("Slon",printText("ABC")));
+        System.out.println("==================");
     }
 }
