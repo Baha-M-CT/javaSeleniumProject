@@ -1,7 +1,23 @@
 public class newClass {
+
+    public static void printLine() {
+        System.out.println("_________________________________");
+    }
+
+    public static int sumMath(int a, int b) {
+        int c;
+        c = Math.abs(a + b);
+        System.out.println(c);
+
+        return c;
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello world");
-        System.out.println("New change");
-        System.out.println("Try again");
+        printLine();
+
+        sumMath(-5, -2);
+
+        printLine();
+
     }
 }
