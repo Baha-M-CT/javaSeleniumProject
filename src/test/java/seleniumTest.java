@@ -13,8 +13,8 @@ public class seleniumTest {
         //WebDriver driver = new ChromeDriver();
 
         String baseUrl = "http://demo.guru99.com/test/newtours/";
-        String expectedTitle = "Welcome: Mercury Tours";
-        String actualTitle = "";
+        String expectedTitle = "Welcome - Mercury Tours";
+        String actualTitle = " ";
 
         // launch Browser and direct it to the Base URL
         driver.get(baseUrl);
@@ -27,9 +27,9 @@ public class seleniumTest {
          * the result as "Passed" or "Failed"
          */
         if (actualTitle.contentEquals(expectedTitle)){
-            System.out.println("Test Passed!");
+            System.out.println("Test - Passed!");
         } else {
-            System.out.println("Test Failed");
+            System.out.println("Test - Failed");
         }
 
         //close browser
