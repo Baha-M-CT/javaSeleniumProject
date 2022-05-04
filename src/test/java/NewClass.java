@@ -3,5 +3,6 @@ public class NewClass {
         System.out.println("Hallo world!");
         System.out.println("Hallo!");
         System.out.println("world!");
+        System.out.println("world2!");
     }
 }
