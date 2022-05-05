@@ -5,5 +5,6 @@ public class NewClass {
         System.out.println("world!");
         System.out.println("world2!");
         System.out.println("world3");
+        System.out.println("world4");
     }
 }
