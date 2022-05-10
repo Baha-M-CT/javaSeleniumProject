@@ -6,7 +6,7 @@ public class seleniumTest {
 
     public static void main(String[] args) {
 
-        System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","D://chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         //comment the above 2 lines and uncomment below 2 lines to use Chrome
         //System.setProperty("webdriver.chrome.driver","G:\\chromedriver.exe");
@@ -34,5 +34,7 @@ public class seleniumTest {
 
         //close browser
         driver.close();
+
+        //GenaShepel
     }
 }
