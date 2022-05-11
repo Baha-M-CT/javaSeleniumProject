@@ -6,14 +6,14 @@ public class seleniumTest {
 
     public static void main(String[] args) {
 
-        System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
+//        System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver.exe");
+//        WebDriver driver = new ChromeDriver();
         //comment the above 2 lines and uncomment below 2 lines to use Chrome
-        //System.setProperty("webdriver.chrome.driver","G:\\chromedriver.exe");
-        //WebDriver driver = new ChromeDriver();
+        System.setProperty("webdriver.chrome.driver","G:\\chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
 
-        String baseUrl = "http://demo.guru99.com/test/newtours/";
-        String expectedTitle = "Welcome: Mercury Tours";
+        String baseUrl = "https://portal.311.nyc.gov/";
+        String expectedTitle = "HOW CAN WE HELP YOU?";
         String actualTitle = "";
 
         // launch Browser and direct it to the Base URL
